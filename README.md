@@ -84,7 +84,7 @@ Find the source code for this [here](https://github.com/Akadeax/nes-test-explore
 <br>
 This parser is a simple TCP listener that first sets up it's own listening, and then runs the command to execute the emulator with `tests_adapter.lua` attached.
 
- Once the output is received, it checks the formatting of the output and gives one of a dozen different errors. If the test code is correctly formatted, it outputs a string displaying all tests, whether they succeded, and if not, what line check & case failed.
+ Once the output is received, it checks the formatting of the output, giving descriptive errors if formatting os off. If the test code is correctly formatted, it outputs a string displaying all tests and whether they succeded. If a check did not, the output informs you of what case, and exactly which checks inside that case failed.
 
 ## Extensions
 Due to the Data Parser functioning entirely independently, it is possible to run this framework for other emulators if you write your own adapter script. As long as it sends the same data as `test_adapter.lua`, it runs flawlessly.
