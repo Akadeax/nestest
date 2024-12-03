@@ -50,6 +50,8 @@ TEST_x_eq_literal 5
 
 And this is technically already a complete test file. A category may have multiple cases, and a case may have multiple calls to a `TEST_` function.
 
+The comments after `CATEGORY` and `CASE` are what is displayed in the Test Explorer output. They are scraped from the source file to provide both line numbers and proper names in the output.
+
 Here is a non-exhaustive list of `TEST_` functions (for the rest see `test_framework.s`):
 
 ```lisp
