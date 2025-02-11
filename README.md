@@ -1,5 +1,5 @@
 # NESTest
-NESTest is a unit testing framework you can use for making games with [cc65](https://cc65.github.io/) and [Mesen](https://mesen.ca/). It allows you to test and verify that the expected values in your code stay expected, no matter what.
+NESTest is a unit testing framework you can use for making games with [cc65](https://cc65.github.io/) and [Mesen](https://mesen.ca/) (i.e. 6502 assembly). It allows you to test and verify that the expected values in your code stay expected, no matter what.
 
 Here's what kind of output you can expect:
 
